@@ -3,14 +3,14 @@ import pandas as pd
 reference_data = pd.read_csv('ReferenceData.csv')
 verify_data = pd.read_csv('VerifyDataset.csv')
 batch_id = st.text_input("Enter Batch ID")
-selected_data = verify_data[verify_data["Batch ID"] == batch_id]
-
-if selected_data.empty:
-    st.error("Batch ID not found.")
-else:
-    for index, row in selected_data.iterrows():
-        score = 0
-    observations = []
+if batch_id:
+    selected_data = verify_data[verify_data["Batch ID"] == batch_id]
+    if selected_data.empty:
+        st.error("Batch ID not found.")
+    else:
+        for index, row in selected_data.iterrows():
+            score = 0
+            observations = []
     if row["CropCycleMatch"] == "Yes":
         score += 15
         observations.append("Crop cycle is consistent.")
