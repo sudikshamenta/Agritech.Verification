@@ -1,0 +1,16 @@
+﻿Crop,Batch ID,Trust level,Location,CropCycleMatch,SoilMatch,YieldConsistency,LandAreaConsistency,FertilizerTransparency,IrrigationSuitability,TransportStatus,LabTestReports
+Rice,RC0001,High,Karimnagar,Yes,Yes,Realistic,Realisitc,Transparent,Suitable,Complete,Complete
+GreenChillies,GC0001,High,Khammam,Yes,Yes,Realistic,Realisitc,Transparent,Suitable,Complete,Complete
+Tomatoes,TM0001,High,Rangareddy,Yes,Yes,Realistic,Realisitc,Transparent,Suitable,Complete,Complete
+RedGram,RG0001,High,Vikarabad,Yes,Yes,Realistic,Realisitc,Transparent,Suitable,Complete,Complete
+Spinach,SP0001,High,Rangareddy,Yes,Yes,Realistic,Realisitc,Transparent,Suitable,Complete,Complete
+Rice,RC0002,Medium,Karimnagar,No,Yes,Unrealistic,Realisitc,Transparent,Suitable,Partial,Partial
+GreenChillies,GC0002,Medium,Khammam,Yes,Yes,Realistic,Realisitc,Transparent,Suitable,Partial,Partial
+Tomatoes,TM0002,Medium,Rangareddy,Partial,Yes,Unrealistic,Realisitc,Transparent,Suitable,Partial,Partial
+RedGram,RG0002,Medium,Vikarabad,Yes,Yes,Realistic,Unrealistic,Transparent,Unsuitable,Complete,Partial
+Spinach,SP0002,Medium,Rangareddy,Yes,Yes,Realistic,Realisitc,Transparent,Suitable,Partial,Missing
+Rice,RC0003,Low,Karimnagar,Partial,Yes,Unrealistic,Unrealistic,Transparent,Suitable,Incomplete,Incomplete
+GreenChillies,GC0003,Low,Khammam,No,Yes,Unrealistic,Unrealistic,Transparent,Unsuitable,Incomplete,Missing
+Tomatoes,TM0003,Low,Rangareddy,No,Yes,Unrealistic,Unrealistic,Transparent,Suitable,Incomplate,Complete
+RedGram,RG0003,Low,Vikarabad,No,Yes,Unrealistic,Unrealistic,Transparent,Unsuitable,Complete,Complete
+Spinach,SP0003,Low,Rangareddy,Partial,Yes,Unrealistic,Unrealistic,Vague,Unsuitable,Incomplete,Complete
