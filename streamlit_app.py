@@ -11,7 +11,6 @@ else:
     for index, row in selected_data.iterrows():
         score = 0
     observations = []
-    
     if row["CropCycleMatch"] == "Yes":
         score += 15
         observations.append("Crop cycle is consistent.")
